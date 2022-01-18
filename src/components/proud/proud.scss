@@ -1,0 +1,99 @@
+.proud{
+  background-color: white;
+  display:flex;
+    
+    .background{
+      margin-top: 40vh;
+      background-color: purple;
+      padding: 10px;
+      margin-left: 10px;
+  
+      .background2{
+        background-color: blue;
+        padding: 10px;
+      }
+  }
+
+  .secondDiv{
+
+    .arrowDiv{
+      margin-top: 40vh;
+      margin-left: 35px;
+      width:60px;
+      display:inline-block;
+
+        .arrow{
+          height: 50px;
+          transform: rotate(270deg);
+        }
+    }
+  
+    .meImg{
+      margin-top: -195px;
+
+        .me{
+          height: 350px;
+        }
+    }
+  }
+
+  .thirdDiv{
+
+    .arrowDiv{
+      margin-top: 40vh;
+      width:60px;
+      display:inline-block;
+
+      .arrow{
+        height: 50px;
+        transform: rotate(270deg);
+      }
+    }
+
+    .gifDiv{
+      margin-left: 70px;
+      height:300px;
+      margin-top: -110px;
+
+
+      .giphy{
+        height:200px;
+      }
+    }
+  }
+
+  .fourDiv{
+    overflow: hidden;
+
+    .arrowDiv{
+      margin-top: 40vh;
+      width:60px;
+      display:inline-block;
+      margin-left: 15px;
+
+      .arrow{
+        height: 50px;
+        transform: rotate(270deg);
+      }
+    }
+
+    .meImg{
+      margin-top: -195px;
+
+        .me{
+          height: 350px;
+        }
+    }
+
+    .people{
+      margin-left: 280px;
+      margin-top: -195px;
+      
+      .peopleImg{
+        height:150px;
+      }
+    }
+  }
+
+
+}
