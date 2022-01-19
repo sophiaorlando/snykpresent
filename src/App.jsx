@@ -10,6 +10,8 @@ import Demo from './components/demonstration/Demo'
 import ElFin from './components/ElFin/ElFin'
 import { SliderData } from './components/aboutMe/SliderData';
 import { SliderDataStack } from './components/stackNative/SliderData';
+import { SliderDataDemo } from './components/demonstration/SliderDataDemo';
+
 
 
 
@@ -25,7 +27,7 @@ function App() {
         <AboutMe slides = {SliderData}/>
         <Proud/>
         <Stack slides = {SliderDataStack}/>
-        <Demo/>
+        <Demo slides = {SliderDataDemo}/>
         <ElFin/>
       </div>
 
