@@ -27,8 +27,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "snyk test",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
