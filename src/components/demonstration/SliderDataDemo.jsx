@@ -7,19 +7,23 @@ export const SliderDataDemo = [
   },
   {
     image:'./assets/snykDemo/snykAuthImg.png',
-    desc: "snyk auth"
+    desc: "Run snyk auth"
   },
   {
     image:'./assets/snykDemo/snykTest.png',
-    desc: "Run Snyk Test"
+    desc: "Run snyk Test"
   },
   {
     image:'./assets/snykDemo/snykInfoOnProj.png',
     desc: "Info on Proj"
   },
   {
+    image:'./assets/snykDemo/snykTest.png',
+    desc: "What now?"
+  },
+  {
     image:'./assets/snykDemo/snykWizard.png',
-    desc: "snyk Wizard"
+    desc: "Run snyk Wizard"
   },
   {
     image:'./assets/snykDemo/snykWizardOption.png',
@@ -34,8 +38,16 @@ export const SliderDataDemo = [
     desc: ".snykPolicy File & Snapshot"
   },
   {
+    image:'./assets/snykDemo/snykPolicyFile.png',
+    desc: ".snykPolicy File"
+  },
+  {
     image:'./assets/snykDemo/snykScripts.png',
     desc: "Updated Script in package.json"
+  },
+  {
+    image:'./assets/snykDemo/snykPatchesApplied.png',
+    desc: "Run npm i, Snyk Patches applied"
   },
   {
     image:

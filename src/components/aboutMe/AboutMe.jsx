@@ -20,7 +20,7 @@ const AboutMe = ({ slides }) => {
   }
 
   return (
-    <section className='slider'>
+    <section className='sliderAboutMe' id="about">
       <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
       <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
       {SliderData.map((slide, index) => {

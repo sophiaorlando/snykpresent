@@ -4,9 +4,8 @@
   width: 300px;
   height: 100vh;
   position:fixed;
-  background: $mainColor;
-  // background:pink;
-  background: -webkit-linear-gradient(rgb(250, 14, 218), rgb(125, 225, 255));
+  background-color:white;
+
   top: 0;
   right: -300px;
   z-index: 2;
@@ -26,7 +25,7 @@
     list-style: none;
     font-size: 40px;
     font-weight: 300;
-    color:black;
+    color:rgb(51, 0, 102);
     width: 60%;
 
     li{

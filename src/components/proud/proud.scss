@@ -1,17 +1,66 @@
 .proud{
   background-color: white;
   display:flex;
+
+  .theH1{
+    color:rgb(51, 0, 102);
+  }
+
+  .theH1Hide{
+    display:none;
+  }
+
+  .imageDiv{
+    .scientist{
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .extraBtn{
+    padding: 20px;
+    margin-left: 10px;
+    background-color:rgb(51, 0, 102) ;
+    color:white;
+    border-radius: 50%;
+    border:none;
+    cursor: pointer;
+    margin-right: 15px;
+
+    &:hover{
+      box-shadow: 5px 5px 10px 2px rgb(51, 0, 102);
+      background-color: white;
+      color:rgb(51, 0, 102);
+      border-color:rgb(51, 0, 102);
+      border-style: solid;
+      cursor: pointer;
+
+    }
+  }
+
+
+
     
     .background{
-      margin-top: 40vh;
-      background-color: purple;
-      padding: 10px;
+      margin-top: 38vh;
+      background-color: rgb(51, 0, 102);;
+      padding: 15px;
       margin-left: 10px;
+      border-radius: 50%;
   
       .background2{
-        background-color: blue;
-        padding: 10px;
+        background-color: white;
+        color:rgb(51, 0, 102);
+        padding: 25px;
+      border-radius: 50%;
+
+      .tool{
+        font-size: 20px;
       }
+
+      }
+
+
   }
 
   .secondDiv{
@@ -21,6 +70,7 @@
       margin-left: 35px;
       width:60px;
       display:inline-block;
+      overflow:hidden;
 
         .arrow{
           height: 50px;
@@ -43,6 +93,7 @@
       margin-top: 40vh;
       width:60px;
       display:inline-block;
+      overflow:hidden;
 
       .arrow{
         height: 50px;
@@ -70,6 +121,7 @@
       width:60px;
       display:inline-block;
       margin-left: 15px;
+      overflow:hidden;
 
       .arrow{
         height: 50px;
